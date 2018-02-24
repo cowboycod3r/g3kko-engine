@@ -7,26 +7,23 @@ Getting started
 ---------------
 Checkout this project and use [pipenv](https://docs.pipenv.org). Follow the example [workflow](https://docs.pipenv.org/basics/#example-pipenv-workflow).
 
-Install from Pipfile
+Install dependencies
 
     pipenv install
-
-Install a new module
-
-    pipenv install <module>
-
-Create a Pipfile.lock from the installed versions
-
-    pipenv lock
-
-Install from that Pipfile.lock if you have issues or other conflicts
-
-    pipenv install --ignore-pipfile
 
 Use the shell
 
     pipenv shell
 
+
+Install a new module
+
+    pipenv install <module>
+
 Show dependencies
 
     pipenv graph
+
+Create a Pipfile.lock from the installed versions
+
+    pipenv lock
