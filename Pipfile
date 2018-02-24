@@ -8,9 +8,13 @@ name = "g3kko-engine"
 [packages]
 
 requests = "*"
+flask = "*"
 
 
 [dev-packages]
 
+
+
 [requires]
+
 python_version = "3.6"
