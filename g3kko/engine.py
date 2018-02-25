@@ -1,6 +1,6 @@
 from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
+from datetime import date
 
 app = Flask(__name__)
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -13,8 +13,8 @@ db = SQLAlchemy(app)
 
 class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    order_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    value_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    order_date = db.Column(db.Date, nullable=False, default=date.today)
+    value_date = db.Column(db.Date, nullable=False, default=date.today)
     principal = db.Column(db.Text, nullable=True)
     order_text = db.Column(db.Text, nullable=True)
     purpose = db.Column(db.Text, nullable=True)
