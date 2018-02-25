@@ -15,7 +15,6 @@ class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     order_date = db.Column(db.Date, nullable=False, default=date.today)
     value_date = db.Column(db.Date, nullable=False, default=date.today)
-    principal = db.Column(db.Text, nullable=True)
     order_text = db.Column(db.Text, nullable=True)
     purpose = db.Column(db.Text, nullable=True)
     value = db.Column(db.Float, nullable=False)
