@@ -9,6 +9,7 @@ name = "g3kko-engine"
 
 requests = "*"
 flask = "*"
+flask-sqlalchemy = "*"
 
 
 [dev-packages]
