@@ -2,7 +2,7 @@
 
 url = "https://pypi.python.org/simple"
 verify_ssl = true
-name = "g3kko-engine"
+name = "g3kko"
 
 
 [packages]

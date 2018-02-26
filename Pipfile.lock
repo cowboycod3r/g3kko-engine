@@ -22,7 +22,7 @@
         },
         "sources": [
             {
-                "name": "g3kko-engine",
+                "name": "g3kko",
                 "url": "https://pypi.python.org/simple",
                 "verify_ssl": true
             }

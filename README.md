@@ -1,4 +1,4 @@
-g3kko-engine
+g3kko
 ============
 
 Engine to calculate return of investments using Python with Flask and SQLAlchemy.
@@ -10,23 +10,15 @@ Checkout this project and use [pipenv](https://docs.pipenv.org). Follow the exam
 Install dependencies
 
     pipenv install
-
-Use the shell to execute something
-
     pipenv shell
 
 
-Run the engine
---------------
-
-Start server on local host (port 5000)
+Run the engine at port 5000
 
     pipenv shell
-    export FLASK_APP=g3kko/engine.py
+    pip install -e .
+    export FLASK_APP=g3kko
     flask run
-
-Development
------------
 
 Install a new module
 
