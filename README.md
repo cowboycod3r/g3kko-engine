@@ -5,7 +5,7 @@ Engine to calculate return of investments using Python with Flask and SQLAlchemy
 
 Getting started
 ---------------
-Checkout this project and use [pipenv](https://docs.pipenv.org). Follow the example [workflow](https://docs.pipenv.org/basics/#example-pipenv-workflow).
+Checkout this project and use [pipenv](https://docs.pipenv.org).
 
 Install dependencies
 
