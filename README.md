@@ -11,7 +11,7 @@ Install dependencies
 
     pipenv install
 
-Check if you set LANG and LC_ALL envirnonment variable is present:
+Check if LANG and LC_ALL envirnonment variable is set:
 
     locale
     LANG="de_DE.UTF-8"
