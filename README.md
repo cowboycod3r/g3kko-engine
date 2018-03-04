@@ -11,6 +11,12 @@ Install dependencies
 
     pipenv install
 
+Check if you set LANG and LC_ALL envirnonment variable is present:
+
+    locale
+    LANG="de_DE.UTF-8"
+    LC_ALL="de_DE.UTF-8"
+
 Run the engine at port 5000
 
     pipenv shell
